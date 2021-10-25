@@ -14,7 +14,7 @@
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Pré-requisitos](#pré-requisitos)
+:small_blue_diamond: [Pré-requisitos / Instalação](#pr%C3%A9-requisitos--instala%C3%A7%C3%A3o)
 
 :small_blue_diamond: [Como rodar os testes](#como-rodar-os-testes)
 
