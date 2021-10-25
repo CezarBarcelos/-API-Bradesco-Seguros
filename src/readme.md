@@ -44,6 +44,9 @@
 
 :warning: [MongoDb](https://www.mongodb.com/try/download/enterprise)
 
+:warning: [bodyParser](No terminal do VS Code: npm install body-parser)
+
+:warning: [mongoose](No terminal do VS Code: npm install mongoose)
 ## Como rodar a aplicação :arrow_forward:
 
 
@@ -78,7 +81,7 @@ Abra o POSTMAN e envie as requisições:
 
 [CHATBOT]
 
-{ Onde id é a chave }
+* Onde id é a chave
 
 PUT http://localhost:8091/api/v1/chatbot/add { adiciona um chatbot }
 
@@ -92,7 +95,7 @@ DELETE http://localhost:8091/api/v1/chatbot/del/:id { remove um chatbot }
 
 [MESSAGE]
 
-{ Onde id e conversationId são as chaves }
+* Onde id e conversationId são as chaves
 
 GET http://localhost:8091/api/v1/message/get/:id { obtem uma mensagem }
 
@@ -191,6 +194,10 @@ https://drive.google.com/file/d/1qwNRkEkM45WCpCrd-eKmVKms9vgJyHJ9/view?usp=shari
 
 - [Postman](https://www.postman.com/downloads/)
 - [Postman DOC](https://learning.postman.com/docs/getting-started/introduction/)
+
+- [bodyParser]($ npm install body-parser)
+
+- [mongoose]($ npm install mongoose)
 
 ## Desenvolvedor :octocat:
 
