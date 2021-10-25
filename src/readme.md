@@ -16,7 +16,7 @@
 
 :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
-:small_blue_diamond: [Como rodar os testes](##como-rodar-os-testes)
+:small_blue_diamond: [Como rodar os testes](#como-rodar-os-testes)
 
 ## Descrição do projeto 
 
