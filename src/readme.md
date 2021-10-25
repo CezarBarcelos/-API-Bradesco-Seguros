@@ -56,7 +56,7 @@ Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio 
 
 Guia para teste das rotas:
 
-Importe a base de dados atravez dos arquivos:
+Importe a base de dados através dos arquivos:
 
 Chatbots:
 https://drive.google.com/file/d/17wPAgrz_MKGIjwejQIN4c9dpFwRd_b3C/view?usp=sharing
