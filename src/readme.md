@@ -208,4 +208,4 @@ https://drive.google.com/file/d/1qwNRkEkM45WCpCrd-eKmVKms9vgJyHJ9/view?usp=shari
 
 The [MIT License]() (MIT)
 
-Copyright :copyright: Ano - API Bradesco Seguros
+Copyright :copyright: 2021 - API Bradesco Seguros
