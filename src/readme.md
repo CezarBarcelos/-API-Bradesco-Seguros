@@ -157,7 +157,7 @@ https://drive.google.com/file/d/1qwNRkEkM45WCpCrd-eKmVKms9vgJyHJ9/view?usp=shari
 - [Postman](https://www.postman.com/downloads/)
 - [Postman DOC](https://learning.postman.com/docs/getting-started/introduction/)
 
-## Desenvolvedores/Contribuintes :octocat:
+## Desenvolvedor :octocat:
 
 | [<img src="https://avatars.githubusercontent.com/u/89024998?s=400&u=4f4166bba7e51d30256dbeca46f33252312d21f2&v=4" width=115><br><sub>Cézar Barcellos</sub>](https://github.com/CezarBarcelos)|
 | :---: |
