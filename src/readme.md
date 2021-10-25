@@ -71,9 +71,7 @@ https://drive.google.com/file/d/1ISATc2q1fCGvt8eZInf8VGmoA3S7WPsp/view?usp=shari
 
 Dentro da Collection, vá em "ADD DATA", Importe File, informe o caminho do arquivo e o tipo ( JSON )
 
-:small_blue_diamond: VisualStudio Code: no terminal digite:
-
-$ npm run dev
+:small_blue_diamond: VisualStudio Code: no terminal digite: $ npm run dev
 
 Após a aplicação informar: 
 
@@ -175,8 +173,7 @@ Message: model (entidade)
 * ListChatbots: Lista todos chatbots presentes na base de dados. (método find, usando o conversationId como filtro)
 ## Iniciando/Configurando banco de dados
 
-Url padrão:
-mongodb://localhost:27017/
+:small_blue_diamond: Url padrão: mongodb://localhost:27017/
 
 Instalação:
 * https://www.youtube.com/watch?v=r6QM1NTzkTI&ab_channel=MatheusBattisti-HoradeCodar
