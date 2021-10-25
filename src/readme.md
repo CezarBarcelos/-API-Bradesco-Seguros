@@ -22,12 +22,11 @@
 
 :small_blue_diamond: [Configurando Banco de Dados](#iniciandoconfigurando-banco-de-dados)
 
+:small_blue_diamond: [Dependencias do Projeto](#dependencias-e-libs-utilizadas-books)
+
 :small_blue_diamond: [Desenvolvedor](#desenvolvedor-octocat)
 
 :small_blue_diamond: [Licença](#licen%C3%A7a)
-
-:small_blue_diamond: [Dependencias do Projeto](#linguagens-dependencias-e-libs-utilizadas-books)
-
 ## Descrição do projeto 
 
 <p align="justify">
