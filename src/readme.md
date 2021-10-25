@@ -18,6 +18,14 @@
 
 :small_blue_diamond: [Como rodar os testes](#como-rodar-os-testes)
 
+:small_blue_diamond: [Desenvolvimento](#desenvolvimento)
+
+:small_blue_diamond: [Configurando Banco de Dados](#iniciandoconfigurando-banco-de-dados)
+
+:small_blue_diamond: [Desenvolvedor](#desenvolvedor-octocat)
+
+:small_blue_diamond: [Licença](#licen%C3%A7a)
+
 ## Descrição do projeto 
 
 <p align="justify">
