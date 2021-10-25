@@ -63,7 +63,7 @@ https://drive.google.com/file/d/1ISATc2q1fCGvt8eZInf8VGmoA3S7WPsp/view?usp=shari
 
 Usando o Mongo Compass:
 
-Dentro da Collection, vá em "ADD DATA", Importe File, Informe o caminho do arquivo e o tipo { JSON }
+Dentro da Collection, vá em "ADD DATA", Importe File, informe o caminho do arquivo e o tipo ( JSON )
 
 VisualStudio Code: no terminal digite:
 
@@ -128,21 +128,24 @@ https://drive.google.com/file/d/1e28PKmSUFda2m85q9XLPWj5viiioLqi4/view?usp=shari
 
 Exporta as rotas para consulta de Chatbots e Mensagens
 
-[chatbotRouter]
+* chatbotRouter
 
 Exporta os métodos de requisição dos chatbots {GET, POST, PUT, DELETE}
 
-[messageRouter]
+* messageRouter
 
 Exporta os métodos de requisição das messages {GET, PUT}
 
 [CONTROLES]
 
-[chatbotControle]
+* chatbotControle
 
 Request e Response: objetos Express para comunicação HTTP
+
 mongoStrCon: string de conexão a base de dados
+
 mongoose: objeto responsável pela conexão e manipulação do MongoDb
+
 Chatbot: model (entidade)
 
 * InsertChatbot: Insere um registro chatbot na base de dados. (método save)
@@ -151,11 +154,14 @@ Chatbot: model (entidade)
 * DeleteChatbot: Remove um chatbot da base de dados, tendo por chave, o id. (método remove)
 * UpdateChatbot: Atualiza os dados de um chatbot da base de dados, tendo por chave, o id. (método findByIdAndUpdate)
 
-[messageControle]
+* messageControle
 
 Request e Response: objetos Express para comunicação HTTP
+
 mongoStrCon: string de conexão a base de dados
+
 mongoose: objeto responsável pela conexão e manipulação do MongoDb
+
 Message: model (entidade)
 
 * InsertChatbot: Insere um registro chatbot na base de dados. (método save)
