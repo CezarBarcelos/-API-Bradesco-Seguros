@@ -76,6 +76,7 @@ Dentro da Collection, vá em "ADD DATA", Importe File, informe o caminho do arqu
 Após a aplicação informar: 
 
 Servidor iniciado na porta: 8091
+
 Conectado ao MongoDB! [ mongodb://localhost:27017/ ]
 
 Abra o POSTMAN e envie as requisições:
@@ -181,7 +182,7 @@ Instalação:
 Exemplo:
 https://drive.google.com/file/d/1qwNRkEkM45WCpCrd-eKmVKms9vgJyHJ9/view?usp=sharing
 
-## Linguagens, dependencias e libs utilizadas :books:
+## Dependencias e libs utilizadas :books:
 
 - [NodeJs](https://nodejs.org/en/)
 - [NodeJs DOC](https://nodejs.org/en/docs/)
