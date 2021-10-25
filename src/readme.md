@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=nodejs&message=software&color=blue&style=for-the-badge&logo=Nodejs"/>
   <img src="https://img.shields.io/static/v1?label=Expressjs&message=framework&color=blue&style=for-the-badge&logo=Expressjs"/>
-  <img src="https://img.shields.io/static/v1?label=MongoDb&message=framework&color=blue&style=for-the-badge&logo=MongoDb"/>ge"/>
+  <img src="https://img.shields.io/static/v1?label=MongoDb&message=DataBase&color=blue&style=for-the-badge&logo=MongoDb"/>ge"/>
 </p>
 
 > Status do Projeto: Concluído :heavy_check_mark:
@@ -93,9 +93,13 @@ Abra o POSTMAN e envie as requisições:
 { Onde id é a chave }
 
 PUT http://localhost:8091/api/v1/chatbot/add { adiciona um chatbot }
+
 POST http://localhost:8091/api/v1/chatbot/upd/:id { atualiza um chatbot }
+
 GET http://localhost:8091/api/v1/chatbot/get/:id { obtem um chatbot }
+
 GET http://localhost:8091/api/v1/chatbot/list { lista todos chatbots }
+
 DELETE http://localhost:8091/api/v1/chatbot/del/:id { remove um chatbot }
 
 [MESSAGE]
@@ -103,8 +107,11 @@ DELETE http://localhost:8091/api/v1/chatbot/del/:id { remove um chatbot }
 { Onde id e conversationId são as chaves }
 
 GET http://localhost:8091/api/v1/message/get/:id { obtem uma mensagem }
+
 GET http://localhost:8091/api/v1/message/list/:conversationId { obtem todas mensagens com o mesmo conversationId }
+
 PUT http://localhost:8091/api/v1/message/add { adiciona uma mensagem }
+
 
 Exemplo:
 
