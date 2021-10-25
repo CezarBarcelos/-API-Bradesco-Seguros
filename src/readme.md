@@ -26,6 +26,8 @@
 
 :small_blue_diamond: [Licença](#licen%C3%A7a)
 
+:small_blue_diamond: [Dependencias do Projeto](#linguagens-dependencias-e-libs-utilizadas-books)
+
 ## Descrição do projeto 
 
 <p align="justify">
@@ -57,7 +59,7 @@
 
 Guia para teste das rotas:
 
-Importe a base de dados através dos arquivos:
+:small_blue_diamond: Importe a base de dados através dos arquivos:
 
 Chatbots:
 https://drive.google.com/file/d/17wPAgrz_MKGIjwejQIN4c9dpFwRd_b3C/view?usp=sharing
@@ -65,11 +67,11 @@ https://drive.google.com/file/d/17wPAgrz_MKGIjwejQIN4c9dpFwRd_b3C/view?usp=shari
 Messages:
 https://drive.google.com/file/d/1ISATc2q1fCGvt8eZInf8VGmoA3S7WPsp/view?usp=sharing
 
-Usando o Mongo Compass:
+:small_blue_diamond: Usando o Mongo Compass:
 
 Dentro da Collection, vá em "ADD DATA", Importe File, informe o caminho do arquivo e o tipo ( JSON )
 
-VisualStudio Code: no terminal digite:
+:small_blue_diamond: VisualStudio Code: no terminal digite:
 
 $ npm run dev
 
@@ -80,7 +82,7 @@ Conectado ao MongoDB! [ mongodb://localhost:27017/ ]
 
 Abra o POSTMAN e envie as requisições:
 
-[CHATBOT]
+:small_blue_diamond: CHATBOT
 
 * Onde id é a chave
 
@@ -94,7 +96,7 @@ GET http://localhost:8091/api/v1/chatbot/list { lista todos chatbots }
 
 DELETE http://localhost:8091/api/v1/chatbot/del/:id { remove um chatbot }
 
-[MESSAGE]
+:small_blue_diamond: MESSAGE
 
 * Onde id e conversationId são as chaves
 
