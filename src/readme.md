@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=nodejs&message=software&color=blue&style=for-the-badge&logo=Nodejs"/>
   <img src="https://img.shields.io/static/v1?label=Expressjs&message=framework&color=blue&style=for-the-badge&logo=Expressjs"/>
-  <img src="https://img.shields.io/static/v1?label=MongoDb&message=DataBase&color=blue&style=for-the-badge&logo=MongoDb"/>ge"/>
+  <img src="https://img.shields.io/static/v1?label=MongoDb&message=DataBase&color=blue&style=for-the-badge&logo=MongoDb"/>
 </p>
 
 > Status do Projeto: Concluído :heavy_check_mark:
@@ -36,28 +36,16 @@
 
 :heavy_check_mark: POST: Atualiza informações dos Chatbots
 
-## Layout ou Deploy da Aplicação :dash:
-
-
-
 ## Pré-requisitos
 
 :warning: [Node](https://nodejs.org/en/download/)
 
-:warning: [Node]($ npm install express)
+:warning: [Express](No terminal do VS Code: npm install express)
 
 :warning: [MongoDb](https://www.mongodb.com/try/download/enterprise)
 
-
 ## Como rodar a aplicação :arrow_forward:
 
-No terminal, clone o projeto: 
-
-```
-git clone https://github.com/React-Bootcamp-WoMarkersCode/certificate-generator
-```
-
-... 
 
 Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio projeto e verfique se o passo a passo funciona**
 
