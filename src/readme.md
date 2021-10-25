@@ -44,7 +44,7 @@
 
 :heavy_check_mark: POST: Atualiza informações dos Chatbots
 
-## Pré-requisitos-/-Instalação
+## Pré-requisitos / Instalação
 
 :warning: [Node](https://nodejs.org/en/download/)
 
