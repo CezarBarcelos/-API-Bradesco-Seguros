@@ -47,11 +47,6 @@
 :warning: [bodyParser](No terminal do VS Code: npm install body-parser)
 
 :warning: [mongoose](No terminal do VS Code: npm install mongoose)
-## Como rodar a aplicação :arrow_forward:
-
-
-Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio projeto e verfique se o passo a passo funciona**
-
 ## Como rodar os testes
 
 Guia para teste das rotas:
