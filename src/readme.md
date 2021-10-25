@@ -46,7 +46,7 @@
 
 :warning: [Node]($ npm install express)
 
-:warning: [Node](https://www.mongodb.com/try/download/enterprise)
+:warning: [MongoDb](https://www.mongodb.com/try/download/enterprise)
 
 
 ## Como rodar a aplicação :arrow_forward:
@@ -125,13 +125,54 @@ https://drive.google.com/file/d/1e28PKmSUFda2m85q9XLPWj5viiioLqi4/view?usp=shari
 
 ## Desenvolvimento
 
-COMENTAR COMO FOI DESENVOLVIDO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[IMPORTS]
 
- Ambos os projetos devem conter um arquivo “README.md” que descreva como 
-devemos utilizar seu sistema e como devemos instalar suas dependências por exemplo. É 
-necessário comentar também os detalhes da implementação. Caso este arquivo não seja 
-criado, a sua correção pode ser comprometida ou nem ser efetuada.
+* bodyParser - conversor do corpo da requisição para o padrão JSON
+* Express - framework
+* dataBase - importa o arquivo de teste de conexão com a base de dados
+* useRouter - importa o arquivo do controle de rotas
 
+[Config]
+
+* dataBase - Exporta método de teste de comunicação com a base de dados {MongoDb}
+
+[Routes]
+
+Exporta as rotas para consulta de Chatbots e Mensagens
+
+[chatbotRouter]
+
+Exporta os métodos de requisição dos chatbots {GET, POST, PUT, DELETE}
+
+[messageRouter]
+
+Exporta os métodos de requisição das messages {GET, PUT}
+
+[CONTROLES]
+
+[chatbotControle]
+
+Request e Response: objetos Express para comunicação HTTP
+mongoStrCon: string de conexão a base de dados
+mongoose: objeto responsável pela conexão e manipulação do MongoDb
+Chatbot: model (entidade)
+
+* InsertChatbot: Insere um registro chatbot na base de dados. (método save)
+* GetChatbot: Obtem um registro da base de dados, tendo por chave, o id. (método findOne)
+* ListChatbots: Lista todos chatbots presentes na base de dados. (método find)
+* DeleteChatbot: Remove um chatbot da base de dados, tendo por chave, o id. (método remove)
+* UpdateChatbot: Atualiza os dados de um chatbot da base de dados, tendo por chave, o id. (método findByIdAndUpdate)
+
+[messageControle]
+
+Request e Response: objetos Express para comunicação HTTP
+mongoStrCon: string de conexão a base de dados
+mongoose: objeto responsável pela conexão e manipulação do MongoDb
+Message: model (entidade)
+
+* InsertChatbot: Insere um registro chatbot na base de dados. (método save)
+* GetChatbot: Obtem um registro da base de dados, tendo por chave, o id. (método findOne)
+* ListChatbots: Lista todos chatbots presentes na base de dados. (método find, usando o conversationId como filtro)
 ## Iniciando/Configurando banco de dados
 
 Url padrão:
