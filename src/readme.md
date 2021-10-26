@@ -106,17 +106,11 @@ PUT http://localhost:8091/api/v1/message/add { adiciona uma mensagem }
 
 Ex:
 {
-
   "conversationId": "7665ada8-3448-4acd-a1b7-d688e68fe9a1",
-
   "timestamp": 2018-11-16T23:30:52.6917722Z",
-
   "from": "36b9f842-ee97-11e8-9443-0242ac120002",
-
   "to": "16edd3b3-3f75-40df-af07-2a3813a79ce9",
-
   "text": "Olá!"
-  
 }
 
 Exemplo:
