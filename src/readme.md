@@ -137,7 +137,11 @@ mongoose: objeto responsável pela conexão e manipulação do MongoDb
 
 Chatbot: model (entidade)
 
-* InsertChatbot: Insere um registro chatbot na base de dados. (método save)<br>* GetChatbot: Obtem um registro da base de dados, tendo por chave, o id. (método findOne)<br>* ListChatbots: Lista todos chatbots presentes na base de dados. (método find)<br>* DeleteChatbot: Remove um chatbot da base de dados, tendo por <br>chave, o id. (método remove)<br>* UpdateChatbot: Atualiza os dados de um chatbot da base de dados, tendo por chave, o id. (método findByIdAndUpdate)
+* InsertChatbot: Insere um registro chatbot na base de dados. (método save)
+* GetChatbot: Obtem um registro da base de dados, tendo por chave, o id. (método findOne)
+* ListChatbots: Lista todos chatbots presentes na base de dados. (método find)
+* DeleteChatbot: Remove um chatbot da base de dados, tendo por chave, o id. (método remove)
+* UpdateChatbot: Atualiza os dados de um chatbot da base de dados, tendo por chave, o id. (método findByIdAndUpdate)
 
 * messageControle
 
@@ -164,21 +168,21 @@ https://drive.google.com/file/d/1qwNRkEkM45WCpCrd-eKmVKms9vgJyHJ9/view?usp=shari
 
 ## Dependencias e libs utilizadas :books:
 
-- [NodeJs](https://nodejs.org/en/)<br>
-- [NodeJs DOC](https://nodejs.org/en/docs/)<br>
+- [NodeJs](https://nodejs.org/en/)
+- [NodeJs DOC](https://nodejs.org/en/docs/)
 
-- [ExpressJs](https://expressjs.com/pt-br/)<br>
-- [ExpressJs DOC](https://expressjs.com/pt-br/4x/api.html)<br>
+- [ExpressJs](https://expressjs.com/pt-br/)
+- [ExpressJs DOC](https://expressjs.com/pt-br/4x/api.html)
 
-- [MongoDb](https://www.mongodb.com/try/download/community)<br>
-- [MongoDb DOC](https://docs.mongodb.com/)<br>
+- [MongoDb](https://www.mongodb.com/try/download/community)
+- [MongoDb DOC](https://docs.mongodb.com/)
 
-- [Postman](https://www.postman.com/downloads/)<br>
-- [Postman DOC](https://learning.postman.com/docs/getting-started/introduction/)<br>
+- [Postman](https://www.postman.com/downloads/)
+- [Postman DOC](https://learning.postman.com/docs/getting-started/introduction/)
 
-- [bodyParser]($ npm install body-parser)<br>
+- [bodyParser]($ npm install body-parser)
 
-- [mongoose]($ npm install mongoose)<br>
+- [mongoose]($ npm install mongoose)
 
 ## Desenvolvedor :octocat:
 
