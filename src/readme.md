@@ -81,7 +81,7 @@ GET http://localhost:8091/api/v1/message/get/:id { obtem uma mensagem }<br>
 GET http://localhost:8091/api/v1/message/list/:conversationId { obtem todas mensagens com o mesmo conversationId }<br>
 PUT http://localhost:8091/api/v1/message/add { adiciona uma mensagem } 
 
-Ex:
+Ex:<br>
 {<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"conversationId": "7665ada8-3448-4acd-a1b7-d688e68fe9a1",<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"timestamp": 2018-11-16T23:30:52.6917722Z",<br>
