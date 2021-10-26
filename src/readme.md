@@ -137,11 +137,11 @@ mongoose: objeto responsável pela conexão e manipulação do MongoDb
 
 Chatbot: model (entidade)
 
-* InsertChatbot: Insere um registro chatbot na base de dados. (método save)<br>
-* GetChatbot: Obtem um registro da base de dados, tendo por chave, o id. (método findOne)<br>
-* ListChatbots: Lista todos chatbots presentes na base de dados. (método find)<br>
-* DeleteChatbot: Remove um chatbot da base de dados, tendo por chave, o id. (método remove)<br>
-* UpdateChatbot: Atualiza os dados de um chatbot da base de dados, tendo por chave, o id. (método findByIdAndUpdate)<br>
+* InsertChatbot: Insere um registro chatbot na base de dados. (método save)
+* GetChatbot: Obtem um registro da base de dados, tendo por chave, o id. (método findOne)
+* ListChatbots: Lista todos chatbots presentes na base de dados. (método find)
+* DeleteChatbot: Remove um chatbot da base de dados, tendo por chave, o id. (método remove)
+* UpdateChatbot: Atualiza os dados de um chatbot da base de dados, tendo por chave, o id. (método findByIdAndUpdate)
 
 * messageControle
 
