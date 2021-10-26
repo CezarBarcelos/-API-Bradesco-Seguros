@@ -35,24 +35,16 @@
 
 ## Funcionalidades
 
-:heavy_check_mark: GET : Obtem os informações dos Chabots/Mensagens
-
-:heavy_check_mark: PUT: Insere um novo Chatbot/Mensagem.
-
-:heavy_check_mark: DELETE: Remove um Chatbot.
-
+:heavy_check_mark: GET : Obtem os informações dos Chabots/Mensagens<br>
+:heavy_check_mark: PUT: Insere um novo Chatbot/Mensagem.<br>
+:heavy_check_mark: DELETE: Remove um Chatbot.<br>
 :heavy_check_mark: POST: Atualiza informações dos Chatbots
-
 ## Pré-requisitos / Instalação
 
-:warning: [Node](https://nodejs.org/en/download/)
-
-:warning: [Express](No terminal do VS Code: npm install express)
-
-:warning: [MongoDb](https://www.mongodb.com/try/download/enterprise)
-
-:warning: [bodyParser](No terminal do VS Code: npm install body-parser)
-
+:warning: [Node](https://nodejs.org/en/download/)<br>
+:warning: [Express](No terminal do VS Code: npm install express)<br>
+:warning: [MongoDb](https://www.mongodb.com/try/download/enterprise)<br>
+:warning: [bodyParser](No terminal do VS Code: npm install body-parser)<br>
 :warning: [mongoose](No terminal do VS Code: npm install mongoose)
 ## Como rodar os testes
 
@@ -84,33 +76,27 @@ Abra o POSTMAN e envie as requisições:
 
 * Onde id é a chave
 
-PUT http://localhost:8091/api/v1/chatbot/add { adiciona um chatbot } Ex.: {"id": "36b9f842-ee97-11e8-9443-0242ac120002","name": "bot"}
-
-POST http://localhost:8091/api/v1/chatbot/upd/:id { atualiza um chatbot }
-
-GET http://localhost:8091/api/v1/chatbot/get/:id { obtem um chatbot }
-
-GET http://localhost:8091/api/v1/chatbot/list { lista todos chatbots }
-
+PUT http://localhost:8091/api/v1/chatbot/add { adiciona um chatbot } Ex.: {"id": "36b9f842-ee97-11e8-9443-0242ac120002","name": "bot"}<br>
+POST http://localhost:8091/api/v1/chatbot/upd/:id { atualiza um chatbot }<br>
+GET http://localhost:8091/api/v1/chatbot/get/:id { obtem um chatbot }<br>
+GET http://localhost:8091/api/v1/chatbot/list { lista todos chatbots }<br>
 DELETE http://localhost:8091/api/v1/chatbot/del/:id { remove um chatbot }
 
 :small_blue_diamond: MESSAGE
 
 * Onde id e conversationId são as chaves
 
-GET http://localhost:8091/api/v1/message/get/:id { obtem uma mensagem }
-
-GET http://localhost:8091/api/v1/message/list/:conversationId { obtem todas mensagens com o mesmo conversationId }
-
+GET http://localhost:8091/api/v1/message/get/:id { obtem uma mensagem }<br>
+GET http://localhost:8091/api/v1/message/list/:conversationId { obtem todas mensagens com o mesmo conversationId }<br>
 PUT http://localhost:8091/api/v1/message/add { adiciona uma mensagem } 
 
 Ex:
 {<br>
-  "conversationId": "7665ada8-3448-4acd-a1b7-d688e68fe9a1",<br>
-  "timestamp": 2018-11-16T23:30:52.6917722Z",<br>
-  "from": "36b9f842-ee97-11e8-9443-0242ac120002",<br>
-  "to": "16edd3b3-3f75-40df-af07-2a3813a79ce9",<br>
-  "text": "Olá!"<br>
+    "conversationId": "7665ada8-3448-4acd-a1b7-d688e68fe9a1",<br>
+    "timestamp": 2018-11-16T23:30:52.6917722Z",<br>
+    "from": "36b9f842-ee97-11e8-9443-0242ac120002",<br>
+    "to": "16edd3b3-3f75-40df-af07-2a3813a79ce9",<br>
+    "text": "Olá!"<br>
 }
 
 Exemplo:
